@@ -17,7 +17,7 @@ sections:
   path: data/testimonial.yml
   label: Testimonials
 - type: document
-  path: hugo.toml
+  path: hugo.toml.bak
   label: Configuration
 - type: directory
   path: content

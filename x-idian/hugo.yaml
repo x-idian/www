@@ -1,0 +1,118 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Roxo | Creative Design Agency
+theme: "roxo-hugo"
+summarylength: 25
+menu:
+  main:
+    - name: Home
+      url: ''
+      weight: 1
+    - name: Services
+      identifier: services
+      pre: dropdown
+      weight: 2
+    - name: About us
+      url: about
+      weight: 3
+    - name: Get in touch
+      url: contact
+      weight: 4
+  services:
+    - name: Artificial Intelligence
+      url: 'ai'
+      weight: 1
+    - name: Software Development
+      url: 'software_development'
+      weight: 2
+params:
+  logo: images/logo-light.svg
+  logo_footer: images/logo-footer.png
+  favicon_icon: images/favicon.ico
+  favicon_shortcut_icon: images/favicon.png
+  custom_stylesheets: []
+  dateFormat: 26 FEB 1994
+  description: Roxo Hugo themes | Design Agency Template by StaticMania
+  author: StaticMania
+  googleAnalitycsID: Your ID
+  fabform: 'https://fabform.io/f/USAg2Jl'
+  contactForm:
+    placeholder_first_name: First Name
+    placeholder_last_name: Last Name
+    placeholder_email: Email
+    placeholder_project_type: Project Type
+    placeholder_about_the_project: About the Project
+    send_message: Send Message
+    projectType:
+      - value: gd
+        title: Graphics Design
+      - value: wd
+        title: Web Design
+  navAction:
+    status: true
+    name: Get in touch
+    url: contact
+  banner:
+    enable: true
+    background_image: images/backgrounds/hero-background.jpg
+    heading: We’re a Design Studio That Belies In the Great Ideas
+    tagline: 'WE WORK HARD, WE PLAY HARD'
+    primary_button: See Our Works
+    primary_button_url: portfolio
+    secondary_button: Connect with Us
+    secondary_button_url: contact
+  blog:
+    read_more: read more
+  portfolio:
+    enable: true
+    title: OUR RECENT WORKS
+    subtitle: Crafting experiences and seeking to make the complex clear & beautiful.
+    view_project: view project
+    more_works: MORE WORKS
+    scroll_down: scroll down
+  call_to_action:
+    enable: true
+    background_image: images/backgrounds/cta-background.jpg
+    title: LET’S WORK TOGETHER
+    primary_button: Submit Query
+    primary_button_url: contact
+    secondary_button: Not Convinced
+    secondary_button_url: portfolio
+  footer:
+    params:
+      footer:
+        qr_print: false
+    contactInfo:
+      title: Contact Info
+      address: '713 Elmwood St.<br>Prior Lake, MN 55372'
+      phone: 409-896-1444
+      email: info@roxo.co
+    sitemap:
+      title: Sitemap
+      link:
+        - name: About Company
+          url: about
+        - name: Projects
+          url: portfolio
+        - name: Blog
+          url: blog
+        - name: Contact
+          url: contact
+    social:
+      title: Social Media
+      link:
+        - name: Medium
+          url: '#'
+        - name: Behance
+          url: '#'
+        - name: Dribbble
+          url: '#'
+        - name: Instagram
+          url: '#'
+    service:
+      title: 'We help brands:'
+      description: >-
+        develop design solutions<br>produce valuable cultural content<br>create
+        fresh brand experience
+    back_to_top:
+      description: I want to <br> visit again
