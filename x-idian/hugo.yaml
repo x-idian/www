@@ -20,16 +20,19 @@ menu:
       weight: 4
   services:
     - name: Artificial Intelligence
-      url: 'ai'
+      url: services/artificial-intelligence
       weight: 1
     - name: Software Development
-      url: 'software_development'
+      url: services/software-development
       weight: 2
+    - name: Product Development
+      url: services/product-development
+      weight: 3
 params:
   logo: images/logo-light.svg
   logo_footer: images/logo-footer.png
-  favicon_icon: images/favicon.ico
-  favicon_shortcut_icon: images/favicon.png
+  favicon_icon: images/favicon.svg
+  favicon_shortcut_icon: images/favicon.svg
   custom_stylesheets: []
   dateFormat: 26 FEB 1994
   description: Roxo Hugo themes | Design Agency Template by StaticMania
