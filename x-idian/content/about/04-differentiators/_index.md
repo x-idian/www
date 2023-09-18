@@ -1,4 +1,5 @@
 ---
 title: "Our differentiators"
-background: light
+contentSize: 12
+mainTitle: true
 ---
