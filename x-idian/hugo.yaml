@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
 languageCode: en-us
-title: Roxo | Creative Design Agency
+title: x-idian | AI Consulting
 theme: "roxo-hugo"
 summarylength: 25
 menu:
@@ -22,23 +22,23 @@ menu:
     - name: Artificial Intelligence
       url: services/artificial-intelligence
       weight: 1
-    - name: Software Development
-      url: services/software-development
+    - name: Application Development
+      url: services/application-development
       weight: 2
     - name: Product Development
       url: services/product-development
       weight: 3
 params:
   logo: images/logo-light.svg
-  logo_footer: images/logo-footer.png
+  logo_footer: images/logo-light.svg
   favicon_icon: images/favicon.svg
   favicon_shortcut_icon: images/favicon.svg
   custom_stylesheets: []
   dateFormat: 26 FEB 1994
-  description: Roxo Hugo themes | Design Agency Template by StaticMania
-  author: StaticMania
+  description: AI Consulting
+  author: x-idian
   googleAnalitycsID: Your ID
-  fabform: 'https://fabform.io/f/USAg2Jl'
+  fabform: 'https://fabform.io/'
   contactForm:
     placeholder_first_name: First Name
     placeholder_last_name: Last Name
@@ -59,9 +59,9 @@ params:
     enable: true
     background_image: images/backgrounds/hero-background.jpg
     heading: We’re a Design Studio That Belies In the Great Ideas
-    tagline: 'WE WORK HARD, WE PLAY HARD'
-    primary_button: See Our Works
-    primary_button_url: portfolio
+    tagline: 'AI | Software | Products'
+    primary_button: About Us
+    primary_button_url: about
     secondary_button: Connect with Us
     secondary_button_url: contact
   blog:
@@ -87,20 +87,23 @@ params:
         qr_print: false
     contactInfo:
       title: Contact Info
-      address: '713 Elmwood St.<br>Prior Lake, MN 55372'
-      phone: 409-896-1444
-      email: info@roxo.co
+      address: 'Office 209, Block C
+                The Workspace at Regent Hill Office Park
+                Cnr Leslie and Turley Rds
+                Lonehill
+                Johannesburg
+                2191'
+      phone: +27 83 369 1121
+      email: info@x-idian.com
     sitemap:
-      title: Sitemap
+      title: Services
       link:
-        - name: About Company
-          url: about
-        - name: Projects
-          url: portfolio
-        - name: Blog
-          url: blog
-        - name: Contact
-          url: contact
+        - name: Artificial Intelligence
+          url: services/artificial-intelligence
+        - name: Application Development
+          url: services/application-development
+        - name: Product Development
+          url: services/product-development
     social:
       title: Social Media
       link:
@@ -112,10 +115,5 @@ params:
           url: '#'
         - name: Instagram
           url: '#'
-    service:
-      title: 'We help brands:'
-      description: >-
-        develop design solutions<br>produce valuable cultural content<br>create
-        fresh brand experience
     back_to_top:
       description: I want to <br> visit again
