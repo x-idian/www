@@ -3,6 +3,14 @@ languageCode: en-us
 title: x-idian | AI Consulting
 theme: "roxo-hugo"
 summarylength: 25
+module:
+  mounts:
+    - source: "assets"
+      target: "assets"
+    - source: "static"
+      target: "static"
+    - source: "node_modules/bootstrap-icons/font/fonts"
+      target: "static/css/fonts"
 menu:
   main:
     - name: Home
@@ -87,11 +95,11 @@ params:
         qr_print: false
     contactInfo:
       title: Contact Info
-      address: 'Office 209, Block C
-                The Workspace at Regent Hill Office Park
-                Cnr Leslie and Turley Rds
-                Lonehill
-                Johannesburg
+      address: 'Office 209, Block C<BR>
+                The Workspace at Regent Hill Office Park<br>
+                Cnr Leslie and Turley Rds<br>
+                Lonehill<br>
+                Johannesburg<br>
                 2191'
       phone: +27 83 369 1121
       email: info@x-idian.com
