@@ -13,6 +13,21 @@
     {{ end }}
     <p>{{ .Content }}</p>
 </div>
+{{ if (.Params.table) }}
+<div class="col-lg-{{ .Params.tableSize | default 8 }} pt-2">
+    <table class="table table-borderless">
+        <tbody>
+        {{ $counter := 0 }}
+        {{ range .Params.table }}
+        {{ $counter = add $counter 1 }}
+            <tr>
+                {{ . }}
+            </tr>
+        {{ end }}
+        </tbody>
+    </table>
+</div>
+{{ end }}
 {{ if not (.Params.imageFirst) }}
     {{ if .Params.Image }}
     <div class="col-lg-{{ .Params.imageSize | default 4 }} d-flex justify-content-center p-2">
