@@ -1,7 +1,6 @@
 ---
-title: "What"
+title: "Our software delivery framework"
 background: "light"
 contentSize: 12
-bgColour: x-bg-secondary
 mainTitle: true
 ---
