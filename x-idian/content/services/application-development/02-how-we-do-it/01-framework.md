@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Custom Software Development"
+title: ""
 contentSize: 8
 image: images/blog/blog-post-04.jpg
 imageSize: 4
