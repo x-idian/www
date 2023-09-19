@@ -1,9 +1,9 @@
 ---
-title: "Scale"
-contentSize: 6
+title: "Specialist"
+contentSize: 9
 ---
 
-X-idian engineers work with clients to integrate AI platforms into their IT environment. 
-This lets businesses scale their AI efforts and get the most out of AI, both now and in 
-the future. After this phase, we evaluate once more before starting the process all over 
-again to discover what else can be done.
+X-idian is a specialized AI consultancy that helps businesses use AI to solve real-world 
+problems. We are different from other AI consultancies because our team of experienced 
+consultants and engineers is focused on helping businesses strategically plan and 
+successfully execute AI projects.

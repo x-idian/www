@@ -1,9 +1,11 @@
 ---
-title: "Readiness Assessment"
-contentSize: 6
+title: "Experience"
+contentSize: 9
 ---
 
-The AI steering team will initiate a series of proof-of-concepts based on the AI roadmap. 
-These proof-of-concepts involve testing the use cases within a sandbox environment and 
-will help the team assess the feasibility of different use cases.
-
+We work with businesses of all sizes to help them use AI to achieve their goals. We have 
+a lot of experience working with both large and small businesses. For large businesses, 
+we specialize in building AI solutions that can scale, and we help them develop and 
+implement AI strategies. For small businesses, we offer affordable and customized AI 
+solutions that can be implemented quickly. Our goal is to help businesses of all sizes use 
+AI to achieve their unique goals.
