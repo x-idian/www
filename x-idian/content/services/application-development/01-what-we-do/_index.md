@@ -1,7 +1,5 @@
 ---
-title: "How"
-background: "light"
+title: "What we offer"
 contentSize: 12
-bgColour: x-bg-secondary
 mainTitle: true
 ---
