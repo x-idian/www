@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/svn,helm,java,node,linux,macos,maven,react,python,svelte,angular,eclipse,windows,terraform,virtualenv,intellij+all,visualstudiocode,intellij+iml
 # Edit at https://www.toptal.com/developers/gitignore?templates=svn,helm,java,node,linux,macos,maven,react,python,svelte,angular,eclipse,windows,terraform,virtualenv,intellij+all,visualstudiocode,intellij+iml
 
+x-idian/resources
+
 ### Angular ###
 ## Angular ##
 # compiled output
