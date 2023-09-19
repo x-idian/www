@@ -1,7 +1,6 @@
 ---
-title: "Why Us"
+title: "Why work with us"
 background: "light"
 contentSize: 12
-bgColour: x-bg-secondary
 mainTitle: true
 ---
