@@ -1,4 +1,4 @@
 [submodule "x-idian/themes/roxo-hugo"]
 	path = x-idian/themes/roxo-hugo
-	url =  git@github.com:x-idian/roxo-hugo.git
+	url =  ../roxo-hugo.git
 	branch = dev
