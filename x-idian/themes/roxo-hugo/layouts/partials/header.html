@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ .Site.Params.logo | absURL }}" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+        {{ range .Site.Menus.main }}
+          {{ if (eq "dropdown" .Pre) }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  href="{{ .URL | absURL }}" id="navbarDropdownMenuLink-{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-{{ .Identifier }}">
+              {{ range (index site.Menus .Identifier) }}
+              <a class="dropdown-item"
+                 href="{{ .URL | absLangURL }}">{{- .Name -}}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | absURL }}"
+            >{{ .Name }}</a
+            >
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

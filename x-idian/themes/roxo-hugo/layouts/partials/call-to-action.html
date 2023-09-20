@@ -1,0 +1,16 @@
+{{ with .Site.Params.call_to_action }}
+{{ if .enable }}
+<section class="site-cta" xmlns="http://www.w3.org/1999/html">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="col-lg-8">
+                {{ partial "contact-form.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
