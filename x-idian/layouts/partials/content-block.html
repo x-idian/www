@@ -19,19 +19,17 @@
     {{ end }}
     <p>{{ .Content }}</p>
 </div>
-{{ if (.Params.table) }}
-<div class="col-lg-{{ .Params.tableSize | default 8 }} pt-2">
-    <table class="table table-borderless">
-        <tbody>
-        {{ $counter := 0 }}
-        {{ range .Params.table }}
-        {{ $counter = add $counter 1 }}
-            <tr>
-                {{ . }}
-            </tr>
-        {{ end }}
-        </tbody>
-    </table>
+{{ if .Params.table }}
+<div class="container">
+  <div class="row">
+            {{ $counter := 0 }}
+            {{ range .Params.table }}
+            {{ $counter = add $counter 1 }}
+                <div class="col-4 col-sm-2">
+                    {{ . }}
+                </div>
+            {{ end }}
+  </div>
 </div>
 {{ end }}
 {{ if not (.Params.imageFirst) }}

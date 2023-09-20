@@ -1,7 +1,6 @@
 ---
-title: ""
-contentSize: 3
-table: ["Svelte, Spring", "React", "Django", "Angular", "Ruby on Rails"]
-tableSize: 9
+title: "Frameworks"
+contentSize: 12
+tableSize: 1
+table: ["Svelte", "Spring", "React", "Django", "Angular", "Ruby on Rails"]
 ---
-##### Frameworks

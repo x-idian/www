@@ -1,7 +1,7 @@
 ---
-title: ""
-contentSize: 3
-tableSize: 9
+title: "Platforms"
+contentSize: 12
+tableSize: 1
 table: ["Kubernetes"]
 ---
-##### Platforms
+
