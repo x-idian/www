@@ -1,6 +1,6 @@
 ---
 title: "Specialist"
-contentSize: 9
+contentSize: 12
 ---
 
 X-idian is a specialized AI consultancy that helps businesses use AI to solve real-world 

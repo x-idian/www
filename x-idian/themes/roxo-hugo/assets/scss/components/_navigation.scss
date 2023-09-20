@@ -45,6 +45,7 @@
       font-weight: bold;
     }
     .dropdown-item:hover {
+      @include text-primary-gradient;
     }
   }
   .navbar-toggler{

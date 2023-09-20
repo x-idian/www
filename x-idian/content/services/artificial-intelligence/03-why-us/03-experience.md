@@ -1,6 +1,6 @@
 ---
 title: "Experience"
-contentSize: 9
+contentSize: 12
 ---
 
 We work with businesses of all sizes to help them use AI to achieve their goals. We have 
