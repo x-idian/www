@@ -1,6 +1,6 @@
 ---
 title: "Partners"
-contentSize: 9
+contentSize: 12
 ---
 
 We have a strong network of partners that help us deliver better AI services to our 

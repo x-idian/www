@@ -1,6 +1,7 @@
 ---
 title: "Discover"
 contentSize: 6
+subTitleLine: true
 ---
 
 Our AI experts work with clients to understand their needs and develop a plan for using 

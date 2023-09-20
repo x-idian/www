@@ -1,6 +1,6 @@
 ---
 title: "Approach"
-contentSize: 9
+contentSize: 12
 ---
 
 We use an engineering approach to build AI solutions. The process includes problem 
