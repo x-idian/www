@@ -1,33 +1,33 @@
-<form>
+<form id="contact-form" action="{{ .Site.Params.formPost }}" method="post">
   <div class="form-row">
-    <div class="form-group col-md-6" aria-label="full name">
-      <input type="text" class="form-control" id="inputName" placeholder="Full name">
+    <div class="form-group col-md-6" aria-label="full name" aria-required="true">
+      <input type="text" class="form-control" id="inputName" name="fullName" placeholder="Full name" required>
     </div>
-    <div class="form-group col-md-6" aria-label="email">
-      <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+    <div class="form-group col-md-6" aria-label="email" aria-required="true">
+      <input type="email" class="form-control" id="inputEmail" name="email" placeholder="E-mail" required>
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6" aria-label="phone number">
-      <input type="text" class="form-control" id="inputPhone" placeholder="Phone number">
+      <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Phone number">
     </div>
     <div class="form-group col-md-6" aria-label="company">
-      <input type="email" class="form-control" id="inputCompany" placeholder="Company">
+      <input type="text" class="form-control" id="inputCompany" name="company" placeholder="Company">
     </div>
   </div>
   <div class="form-group">
     <div class="form-text">
-      <textarea class="form-control" id="moreInput" name="more-input" rows="6"
+      <textarea class="form-control" id="moreInput" name="description" rows="6"
                 placeholder="How can we help you?"></textarea>
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-10">
-      <p>Please be informed that when you click the Send button x-idian will process your
+      <p id="contact-form-status">Please be informed that when you click the Send button x-idian will process your
         personal data for the purpose of providing you with appropriate information.</p>
     </div>
     <div class="form-group col-md-2">
-      <button type="submit" class="btn btn-primary">Send</button>
+      <button formtarget="_blank" type="submit" id="contact-form-button" class="btn btn-primary">Send</button>
     </div>
   </div>
 </form>

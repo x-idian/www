@@ -46,7 +46,7 @@ params:
   description: AI Consulting
   author: x-idian
   googleAnalitycsID: Your ID
-  fabform: 'https://fabform.io/'
+  formPost: 'https://contactor.xidian.workers.dev/api/v1/send'
   contactForm:
     placeholder_first_name: First Name
     placeholder_last_name: Last Name
