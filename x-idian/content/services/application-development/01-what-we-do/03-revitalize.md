@@ -1,6 +1,6 @@
 ---
 title: "Revitalize Legacy Systems"
-contentSize: 5
+contentSize: 4
 ---
 
 Modernize your older systems to harness the advantages of contemporary architectures 

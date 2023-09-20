@@ -1,8 +1,8 @@
 ---
 title: "Effortless System Integration"
-contentSize: 5
+contentSize: 4
 image: images/blog/blog-details-image.jpg
-imageSize: 3
+imageSize: 4
 imageFirst: true
 ---
 Simplify the intricacies of system integration and create robust API strategies for 
