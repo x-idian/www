@@ -17,6 +17,13 @@ body {
   }
 }
 
+hr {
+  background: -webkit-linear-gradient(-10deg,
+      $primary-color,
+      $secondary-blue-color);
+  -webkit-text-fill-color: transparent;
+  height: 2px;
+}
 
 
 .img-responsive {

@@ -33,7 +33,6 @@
       position: relative;
     }
     .nav-link:hover {
-      @include text-primary-gradient;
     }
     &:last-child{
       margin-left: 15px;
@@ -46,7 +45,6 @@
       font-weight: bold;
     }
     .dropdown-item:hover {
-      @include text-primary-gradient;
     }
   }
   .navbar-toggler{
