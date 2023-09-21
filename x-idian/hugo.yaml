@@ -45,7 +45,7 @@ params:
   dateFormat: 26 FEB 1994
   description: AI Consulting
   author: x-idian
-  googleAnalitycsID: Your ID
+  googleAnalitycsID: G-91RX4ETWLT
   formPost: 'https://contactor.xidian.workers.dev/api/v1/send'
   contactForm:
     placeholder_first_name: First Name
