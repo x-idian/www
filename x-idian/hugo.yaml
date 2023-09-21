@@ -38,7 +38,7 @@ menu:
       weight: 3
 params:
   logo: images/logo-light.svg
-  logo_footer: images/logo-light.svg
+  logo_footer: images/logo.svg
   favicon_icon: images/favicon.svg
   favicon_shortcut_icon: images/favicon.svg
   custom_stylesheets: []
@@ -66,45 +66,30 @@ params:
   banner:
     enable: true
     background_image: images/backgrounds/hero-background.jpg
-    heading: We’re a Design Studio That Belies In the Great Ideas
+    heading: Building the future
     tagline: 'AI | Software | Products'
     primary_button: About Us
     primary_button_url: about
     secondary_button: Connect with Us
     secondary_button_url: contact
-  blog:
-    read_more: read more
-  portfolio:
-    enable: true
-    title: OUR RECENT WORKS
-    subtitle: Crafting experiences and seeking to make the complex clear & beautiful.
-    view_project: view project
-    more_works: MORE WORKS
-    scroll_down: scroll down
-  call_to_action:
-    enable: true
-    background_image: images/backgrounds/cta-background.jpg
-    title: LET’S WORK TOGETHER
-    primary_button: Submit Query
-    primary_button_url: contact
-    secondary_button: Not Convinced
-    secondary_button_url: portfolio
   footer:
     params:
       footer:
         qr_print: false
     contactInfo:
       title: Contact Info
-      address: 'Office 209, Block C<BR>
-                The Workspace at Regent Hill Office Park<br>
-                Cnr Leslie and Turley Rds<br>
-                Lonehill<br>
-                Johannesburg<br>
-                2191'
       phone: +27 83 369 1121
       email: info@x-idian.com
+    addressInfo:
+      title: Location
+      address: 'Office 209, Block C<BR>
+The Workspace at Regent Hill Office Park<br>
+Cnr Leslie and Turley Rds<br>
+Lonehill<br>
+Johannesburg<br>
+2191'
     sitemap:
-      title: Services
+      title: Our Services
       link:
         - name: Artificial Intelligence
           url: services/artificial-intelligence
@@ -112,16 +97,3 @@ params:
           url: services/application-development
         - name: Product Development
           url: services/product-development
-    social:
-      title: Social Media
-      link:
-        - name: Medium
-          url: '#'
-        - name: Behance
-          url: '#'
-        - name: Dribbble
-          url: '#'
-        - name: Instagram
-          url: '#'
-    back_to_top:
-      description: I want to <br> visit again

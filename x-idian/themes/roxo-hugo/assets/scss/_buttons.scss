@@ -2,13 +2,10 @@
   font-family: $secondary-font;
   border: none;
   color: $white !important;
-  padding: 10px 45px;
-  border-radius: 15;
+  padding: 15px 15px;
+  border-radius: 3px;
   &:focus{
     box-shadow: none;
-  }
-  @include desktop{
-    padding: 17px 40px;
   }
   .btn-area{
     display: block;
@@ -24,7 +21,6 @@
         position: absolute;
         top: 150%;
         left: 0;
-        transform: skewY(30deg);
         transform-origin: left center;
         transition: transform .9s cubic-bezier(.19,1,.22,1);
       }
@@ -33,20 +29,14 @@
   &:hover{
     .btn-area{
       span{
-        transform: translateY(-150%) skewY(7deg);
-        &::after{
-          transform: skewY(-7deg);
-        }
+        transform: translateY(-150%);
       }
     }
   }
   &:visited{
     .btn-area{
       span{
-        transform: translateY(-150%) skewY(7deg);
-        &::after{
-          transform: skewY(-7deg);
-        }
+        transform: translateY(-150%);
       }
     }
   }
