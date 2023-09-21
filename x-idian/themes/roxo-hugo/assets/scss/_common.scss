@@ -13,12 +13,18 @@ body {
   }
 }
 
-hr {
+.hr-xd-gradient {
   background: -webkit-linear-gradient(-10deg,
       $primary-color,
       $secondary-blue-color);
   -webkit-text-fill-color: transparent;
   height: 2px;
+}
+
+.hr-xd-light {
+  background: #c5c5c5;
+  -webkit-text-fill-color: transparent;
+  height: 1px;
 }
 
 
