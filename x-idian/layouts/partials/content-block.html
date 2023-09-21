@@ -9,11 +9,11 @@
     {{ if .Params.mainTitle }}
         <h3>{{.Title}}</h3>
       {{ if .Params.mainTitleLine }}
-          <hr/>
+          <hr class="hr-xd-gradient"/>
       {{ end }}
     {{ else }}
         {{ if .Params.subTitleLine }}
-          <hr/>
+          <hr class="hr-xd-gradient"/>
         {{ end }}
         <h5>{{ .Title }} </h5>
     {{ end }}
@@ -21,7 +21,7 @@
 </div>
 {{ if .Params.table }}
 <div class="container">
-  <div class="row p-1">
+  <div class="row p-1 pb-4">
             {{ $counter := 0 }}
             {{ range .Params.table }}
             {{ $counter = add $counter 1 }}
@@ -30,6 +30,7 @@
                 </div>
             {{ end }}
   </div>
+  <hr class="hr-xd-light"/>
 </div>
 {{ end }}
 {{ if not (.Params.imageFirst) }}
