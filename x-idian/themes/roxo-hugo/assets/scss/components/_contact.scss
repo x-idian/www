@@ -1,9 +1,6 @@
 .site-contact{
   padding: 15px 0;
   background: $gray;
-  @include mobile{
-    padding: 120px 0 100px;
-  }
   &-title{
     font-weight: 700;
     @include tablet{
