@@ -1,8 +1,9 @@
 ---
-title: "Data Strategy and Management"
-contentSize: 3
+title: "Experience"
+contentSize: 4
+imageFirst: true
 image: images/blog/blog-details-image.jpg
-imageSize: 9
+imageSize: 8
 ---
 
 Not only have we built our own specialised products, but we have helped customers over 

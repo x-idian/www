@@ -1,8 +1,8 @@
 ---
 title: "Product basket"
-contentSize: 3
+contentSize: 4
 image: images/blog/blog-details-image.jpg
-imageSize: 9
+imageSize: 8
 ---
 
 Our expanding product portfolio encompasses AI tools and talent platforms. Our commitment 

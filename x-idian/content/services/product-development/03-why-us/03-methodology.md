@@ -1,8 +1,8 @@
 ---
 title: "Methodology"
-contentSize: 3
+contentSize: 4
 image: images/blog/blog-details-image.jpg
-imageSize: 9
+imageSize: 8
 ---
 
 Our product lab team employs a proven methodology that swiftly transforms prototypes into 
