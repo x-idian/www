@@ -65,21 +65,21 @@
     }
   }
   &-copyright{
-    padding-left: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     p{
+      font-size: 14px;
       color: $black;
-      margin: 50px auto 0;
-      text-align: left;
+      margin: 1px auto 0;
+      text-align: center;
     }
     a{
       color: $text-color-dark;
       transition: all .3s ease;
       @include tablet{
-        font-size: 20px;
+        font-size: 14px;
       }
       @include desktop{
-        margin-bottom: 70px;
+        margin-bottom: 1px;
       }
     }
   }

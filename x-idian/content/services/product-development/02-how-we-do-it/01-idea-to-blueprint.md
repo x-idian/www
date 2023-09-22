@@ -1,6 +1,7 @@
 ---
 title: "Step 1: Idea to Blueprint"
 contentSize: 9
+imageFirst: true
 image: images/blog/blog-details-image.jpg
 imageSize: 3
 ---

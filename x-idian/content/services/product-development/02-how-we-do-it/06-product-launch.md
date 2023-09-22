@@ -1,6 +1,7 @@
 ---
 title: "Step 6. Product launch"
 contentSize: 9
+imageFirst: true
 image: images/blog/blog-details-image.jpg
 imageSize: 3
 ---

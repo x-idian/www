@@ -1,6 +1,7 @@
 ---
 title: "Step 2. Product design"
 contentSize: 9
+imageFirst: true
 image: images/blog/blog-details-image.jpg
 imageSize: 3
 ---
