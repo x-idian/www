@@ -1,0 +1,3 @@
+---
+nofooter: true
+---

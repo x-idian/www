@@ -65,7 +65,7 @@ params:
     url: contact
   banner:
     enable: true
-    background_image: images/backgrounds/hero-background.jpg
+    background_image: images/backgrounds/nasa-Q1p7bh3SHj8-unsplash.jpg
     heading: Building the future
     tagline: 'AI | Software | Products'
     primary_button: About Us

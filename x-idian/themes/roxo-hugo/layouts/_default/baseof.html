@@ -6,6 +6,8 @@
         <main>
             {{- block "main" . }}{{- end }}
         </main>
-        {{- partial "footer.html" . -}}
+        {{ if not .Params.nofooter }}
+            {{- partial "footer.html" . -}}
+        {{ end }}
     </body>
 </html>
