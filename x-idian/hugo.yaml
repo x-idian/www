@@ -66,12 +66,8 @@ params:
   banner:
     enable: true
     background_image: images/backgrounds/nasa-Q1p7bh3SHj8-unsplash.jpg
-    heading: Building the future
-    tagline: 'AI | Software | Products'
-    primary_button: About Us
-    primary_button_url: about
-    secondary_button: Connect with Us
-    secondary_button_url: contact
+    heading: X-IDIAN
+    tagline: 'AI Consulting'
   footer:
     params:
       footer:

@@ -14,21 +14,14 @@
     padding: 150px 0;
   }
   &-content{
-    h4 {
+    h5 {
       color: $white;
-      margin-bottom: 75px;
+      margin-top: 15px;
     }
-    h1{
-      @include text-primary-gradient;
-      margin-bottom: 15px;
-      @include desktop-lg{
-        font-size: 50px;
-        margin-bottom: 50px;
-      }
-      @include mobile{
-        font-size: 40px;
-      }
+    h1,h2,h3,h4 {
+      color: $white;
     }
+
     &-buttons{
       margin: 0;
       padding: 0;
@@ -46,9 +39,8 @@
         }
         .btn{
           font-weight: 600;
-          width: 230px;
+
           @include mobile{
-            width: 90%;
             margin: 0 auto;
             display: block;
           }
@@ -59,6 +51,5 @@
   &-scroll{
     position: absolute;
     left: 50%; bottom: 70px;
-    transform: translateX(-50%);
   }
 }
