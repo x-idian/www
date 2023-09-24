@@ -1,7 +1,7 @@
 ---
 title: "Strategy and Roadmap"
 contentSize: 4
-image: images/blog/blog-details-image.jpg
+image: images/services/artificial-intelligence/strategy-roadmap.jpg
 imageSize: 4
 ---
 

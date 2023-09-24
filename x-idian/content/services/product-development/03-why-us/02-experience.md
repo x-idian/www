@@ -2,7 +2,7 @@
 title: "Experience"
 contentSize: 4
 imageFirst: true
-image: images/blog/blog-details-image.jpg
+image: images/services/product-development/experience.jpg
 imageSize: 8
 ---
 

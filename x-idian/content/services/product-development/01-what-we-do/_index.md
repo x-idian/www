@@ -1,8 +1,10 @@
 ---
 title: "Creating the products of tomorrow"
 background: "light"
-contentSize: 9
+contentSize: 8
 mainTitle: true
+imageSize: 4
+image: images/services/product-development/creating-products.jpg
 ---
 
 Software product development is the process of creating new software products, either to

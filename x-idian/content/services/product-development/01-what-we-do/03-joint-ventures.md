@@ -1,6 +1,7 @@
 ---
 title: "Joint Exploratory Ventures"
 contentSize: 4
+subTitleLine: true
 ---
 
 Through collaborative experiments with our clients, we venture into new ideas and 

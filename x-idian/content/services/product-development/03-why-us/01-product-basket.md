@@ -1,7 +1,7 @@
 ---
 title: "Product basket"
 contentSize: 4
-image: images/blog/blog-details-image.jpg
+image: images/services/product-development/product-basket.jpg
 imageSize: 8
 ---
 

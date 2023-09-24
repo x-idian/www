@@ -1,6 +1,8 @@
 ---
 title: "Experience"
 contentSize: 12
+#imageSize: 4
+#image: images/services/product-development/how-our-process.svg
 ---
 
 We work with businesses of all sizes to help them use AI to achieve their goals. We have 

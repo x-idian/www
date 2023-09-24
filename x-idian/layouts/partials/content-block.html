@@ -9,11 +9,11 @@
     {{ if .Params.mainTitle }}
         <h3>{{.Title}}</h3>
       {{ if .Params.mainTitleLine }}
-          <hr class="hr-xd-gradient"/>
+          <hr class="xd-hr-gradient"/>
       {{ end }}
     {{ else }}
         {{ if .Params.subTitleLine }}
-          <hr class="hr-xd-gradient"/>
+          <hr class="xd-hr-gradient"/>
         {{ end }}
         <h5>{{ .Title }} </h5>
     {{ end }}
@@ -30,7 +30,7 @@
                 </div>
             {{ end }}
   </div>
-  <hr class="hr-xd-light"/>
+  <hr class="xd-hr-light"/>
 </div>
 {{ end }}
 {{ if not (.Params.imageFirst) }}

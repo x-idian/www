@@ -1,8 +1,9 @@
 ---
 title: ""
 contentSize: 8
-image: images/blog/blog-post-04.jpg
+image: images/services/application-development/how-our-process.svg
 imageSize: 4
+imageFirst: true
 ---
 X-idian develops software from the ground up and engages in development at any stage of 
 the software development lifecycle. 

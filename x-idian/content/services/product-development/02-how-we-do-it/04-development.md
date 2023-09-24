@@ -1,9 +1,6 @@
 ---
 title: "Step 4. Development and quality assurance"
-contentSize: 9
-imageFirst: true
-image: images/blog/blog-details-image.jpg
-imageSize: 3
+contentSize: 12
 ---
 
 Our software engineers automate the development and delivery process, set up data 

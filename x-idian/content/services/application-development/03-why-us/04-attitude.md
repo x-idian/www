@@ -1,6 +1,7 @@
 ---
 title: "Attitude"
 contentSize: 6
+subTitleLine: true
 ---
 
 X-idian looks for engineers who are resilient and good at solving problems. They thrive

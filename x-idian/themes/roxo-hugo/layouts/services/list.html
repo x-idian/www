@@ -1,5 +1,7 @@
 {{ define "main" }}
-<section style="background-image: url('https://source.unsplash.com/random/900%C3%97700/?software,ai')" class="site-header d-flex align-items-center justify-content-center">
+<section
+    class="site-header d-flex align-items-center justify-content-center"
+    style="background-image: url('/{{ .Params.sectionHeaderImage }}')">
   <div class="overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">{{ .Params.title | safeHTML }}</h2>
@@ -8,7 +10,7 @@
 </section>
 <section class="site-body">
   {{ range sort .Pages "File.Path" }}
-  <div class="{{ .Params.bgColour | default "bg-white" }}">
+  <div class="{{ .Params.bgColour }}">
   <div class="container">
     <div class="row justify-content-center py-lg-5">
       {{ partial "content-block.html" . }}
@@ -21,5 +23,7 @@
   {{ end }}
 </section>
 
-{{ partial "call-to-action.html" . }}
+<div class="bg-white">
+  {{ partial "call-to-action.html" . }}
+</div>
 {{ end }}

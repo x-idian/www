@@ -1,6 +1,7 @@
 ---
 title: "Problem Solvers"
 contentSize: 6
+subTitleLine: true
 ---
 
 X-idian customizes solutions to fit each client's needs. We use a variety of tools,

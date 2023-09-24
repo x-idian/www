@@ -1,6 +1,7 @@
 ---
 title: "Experience"
 contentSize: 6 
+subTitleLine: true
 ---
 
 X-idian has experienced developers with the skills and knowledge to build robust, secure, 

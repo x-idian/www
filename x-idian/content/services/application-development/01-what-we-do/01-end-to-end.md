@@ -1,7 +1,7 @@
 ---
 title: "End-to-End Custom Software Development"
 contentSize: 5
-image: images/blog/blog-details-image.jpg
+image: images/services/application-development/end-to-end-software-craft.jpg
 imageSize: 3
 imageFirst: true
 ---

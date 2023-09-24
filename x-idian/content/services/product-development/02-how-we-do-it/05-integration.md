@@ -1,9 +1,7 @@
 ---
 title: "Step 5. Integration"
-contentSize: 9
+contentSize: 12
 imageFirst: true
-image: images/blog/blog-details-image.jpg
-imageSize: 3
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Quality of Skills"
 contentSize: 6
+subTitleLine: true
 ---
 
 We value versatile and experienced engineers who can work on a variety of technologies. 

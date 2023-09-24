@@ -1,5 +1,5 @@
 ---
-title: "Scale"
+title: "4. Scale"
 contentSize: 6
 ---
 

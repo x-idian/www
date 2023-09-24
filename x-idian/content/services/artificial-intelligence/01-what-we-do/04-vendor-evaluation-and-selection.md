@@ -1,7 +1,7 @@
 ---
 title: "Vendor Evaluation and Selection"
 contentSize: 4
-image: images/blog/blog-details-image.jpg
+image: images/services/artificial-intelligence/vendor-evaluation.jpg
 imageSize: 4
 imageFirst: true
 ---

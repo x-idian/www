@@ -1,8 +1,12 @@
 ---
 title: "Our mission"
-image: images/blog/blog-post-04.jpg
-imageSize: 6
-contentSize: 6
+contentSize: 8
+image: images/about/mission.jpg
+imageSize: 4
 mainTitle: true
 ---
-Our vision is to generate positive and meaningful effects that enhance the well-being and  experiences of people on a global scale.
+
+X-idian is on a mission to lead the AI revolution by creating groundbreaking innovations 
+and transforming industries. We aim to push the boundaries of AI technology and create 
+solutions that revolutionize businesses, improve lives, and shape the future of 
+industries worldwide.

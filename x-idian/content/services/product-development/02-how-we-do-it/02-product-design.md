@@ -1,9 +1,6 @@
 ---
 title: "Step 2. Product design"
-contentSize: 9
-imageFirst: true
-image: images/blog/blog-details-image.jpg
-imageSize: 3
+contentSize: 12
 ---
 
 We design an optimal feature set, architecture, UX and UI, integration plan, and tech stack for your

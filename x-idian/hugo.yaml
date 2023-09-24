@@ -65,9 +65,10 @@ params:
     url: contact
   banner:
     enable: true
-    background_image: images/backgrounds/nasa-Q1p7bh3SHj8-unsplash.jpg
+    background_image: images/backgrounds/hero-option-3.jpg
     heading: X-IDIAN
-    tagline: 'AI Consulting'
+    tagline: 'AI Consulting | Software | Products'
+    primary_button: About Us
   footer:
     params:
       footer:

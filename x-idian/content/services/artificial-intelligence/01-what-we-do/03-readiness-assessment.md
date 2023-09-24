@@ -1,7 +1,7 @@
 ---
 title: "Readiness Assessment"
 contentSize: 4
-image: images/blog/blog-details-image.jpg
+image: images/services/artificial-intelligence/readiness-assessment.jpg
 imageSize: 4
 imageFirst: true
 ---

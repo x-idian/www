@@ -1,6 +1,7 @@
 ---
 title: "Client-Driven Product Development"
 contentSize: 4
+subTitleLine: true
 ---
 We take a pivotal role in empowering our clients to develop their own products. This 
 spans the entire product lifecycle, from concept to design, production, and rigorous 

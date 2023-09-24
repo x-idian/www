@@ -1,32 +1,32 @@
 body {
-  background: $body-color;
+  background: $light-gray-color;
 }
 
-.x-bg-primary {
+.xd-bg-primary {
   background: $primary-color;
 }
 
-.x-bg-secondary {
+.xd-bg-secondary {
   background: $secondary-color;
   h1, h2, h3, h4, h5, h6, p {
     color: $white;
   }
 }
 
-.hr-xd-gradient {
+
+.xd-hr-gradient {
   background: -webkit-linear-gradient(-10deg,
       $primary-color,
       $secondary-blue-color);
   -webkit-text-fill-color: transparent;
-  height: 2px;
+  height: 4px;
 }
 
-.hr-xd-light {
+.xd-hr-light {
   background: #c5c5c5;
   -webkit-text-fill-color: transparent;
   height: 1px;
 }
-
 
 .img-responsive {
   max-width: 100%;
