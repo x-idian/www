@@ -1,45 +1,9 @@
 .btn{
   font-family: $secondary-font;
   border: none;
-  color: $white !important;
+  border-radius: 25px;
+  color: $white;
   padding: 15px 15px;
-  border-radius: 3px;
-  &:focus{
-    box-shadow: none;
-  }
-  .btn-area{
-    display: block;
-    overflow: hidden;
-    span{
-      position: relative;
-      display: inline-block;
-      padding: 2px 0;
-      transition: transform .9s cubic-bezier(.19,1,.22,1);
-      transform-origin: left center;
-      &::after{
-        content: attr(data-text);
-        position: absolute;
-        top: 150%;
-        left: 0;
-        transform-origin: left center;
-        transition: transform .9s cubic-bezier(.19,1,.22,1);
-      }
-    }
-  }
-  &:hover{
-    .btn-area{
-      span{
-        transform: translateY(-150%);
-      }
-    }
-  }
-  &:visited{
-    .btn-area{
-      span{
-        transform: translateY(-150%);
-      }
-    }
-  }
 }
 
 .btn-sm{
@@ -63,5 +27,27 @@
   color: $white;
   &:hover{
     background: darken($color: $secondary-color, $amount: 10);
+  }
+}
+.btn-contact {
+  background-color: $primary-color;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 150px;
+  animation: fade 5s linear 2s infinite;
+
+  &:hover{
+    color: white;
+    background: fade-in($color: $secondary-color, $amount: 1);
+  }
+
+  @keyframes fade {
+    0%,10% {
+      outline: 3px solid rgba(255,255,255,0.7);
+    }
+    20%, 100% {
+      outline: 3px solid rgba(255,255,255,0);
+      outline-offset: 15px;
+    }
   }
 }

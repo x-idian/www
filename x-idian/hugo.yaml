@@ -23,9 +23,6 @@ menu:
     - name: About us
       url: about
       weight: 3
-    - name: Get in touch
-      url: contact
-      weight: 4
   services:
     - name: Artificial Intelligence
       url: services/artificial-intelligence

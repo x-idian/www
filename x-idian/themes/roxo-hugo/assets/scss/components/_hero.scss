@@ -14,36 +14,33 @@
     padding: 150px 0;
   }
   &-content{
-    h5 {
-      color: $white;
-      margin-top: 15px;
-    }
-    h1,h2,h3,h4 {
+
+    h1,h2,h3,h4,h5 {
       color: $white;
     }
 
     &-buttons{
-      margin: 0;
-      padding: 0;
-      li{
-        display: inline-block;
-        @include mobile{
-          display: block;
-        }
-        &:not(:last-child){
-          margin-right: 30px;
-          @include mobile{
-            margin-right: 0;
-            margin-bottom: 20px;
-          }
-        }
-        .btn{
-          font-weight: 600;
+      padding-top: 45px;
 
-          @include mobile{
-            margin: 0 auto;
-            display: block;
-          }
+      .btn-hero-nav:hover {
+        @include text-primary-gradient;
+        filter: brightness(2);
+      }
+
+      .h5 {
+        padding-top: 15px;
+      }
+
+      .btn-contact {
+        font-size: 22px;
+        width: 200px;
+
+        @media screen {
+          margin-top: 45px;
+        }
+
+        @media handheld {
+          margin-top: 0;
         }
       }
     }
