@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="site-hero" style="background-image: url('{{ .Site.Params.banner.background_image }}');">
+<section class="site-hero" style="background-image: url('{{ .Site.Params.banner.background_image | absURL }}');">
     <div class="container">
         <div>
             <h1 style="color: white">Page not found</h1>

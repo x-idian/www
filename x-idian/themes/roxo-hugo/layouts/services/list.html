@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section
     class="site-header d-flex align-items-center justify-content-center"
-    style="background-image: url('/{{ .Params.sectionHeaderImage }}')">
+    style="background-image: url('{{ .Params.sectionHeaderImage | absURL }}')">
   <div class="overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">{{ .Params.title | safeHTML }}</h2>
