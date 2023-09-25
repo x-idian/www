@@ -1,9 +1,11 @@
 ---
-title: "Big data"
+title: "Big Data"
 contentSize: 12
 table:
   "":
+    - "Kafka"
     - "Hadoop"
     - "Spark"
-    - "Kafka"
+    - "Hive"
 ---
+

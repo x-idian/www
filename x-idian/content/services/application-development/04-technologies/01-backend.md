@@ -1,5 +1,5 @@
 ---
-title: "Back-end programming languages"
+title: "Languages and Frameworks"
 subTitleLine: true
 contentSize: 12
 table:
@@ -13,9 +13,17 @@ table:
       - "C++"
       - "C#"
       - "Javascript"
+      - "TypeScript"
+      - "CSS"
+      - "SCSS"
   "Frameworks":
     - "NodeJs"
     - "Spring"
     - "Django"
     - "FastAPI"
+    - "Svelte"
+    - "Angular"
+    - "React"
+    - "VueJS"
+    - "NextJS"
 ---

@@ -26,15 +26,17 @@
     {{ $itemsPerLine := default 8 .Params.tableItemsPerLine }}
     <table class="table table-borderless">
     {{ range $key, $value := .Params.Table }}
+        {{ $totalItems := len $value }}
+        {{ $colSpanSize := cond (lt $totalItems $itemsPerLine) $totalItems $itemsPerLine }}
         {{ with $key }}
         <thead>
         <tr>
-            <th colspan="{{ $itemsPerLine }}">{{ . | strings.ToUpper }}</th>
+            <th colspan="{{ $colSpanSize }}">{{ . | strings.Title }}</th>
         </tr>
         <tbody>
         {{ end }}
         <tr>
-            {{ $totalItems := len $value }}
+
             {{ $counter := 0 }}
             {{ range $value }}
                 {{ $counter = add $counter 1 }}
