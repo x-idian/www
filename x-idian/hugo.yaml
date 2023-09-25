@@ -40,7 +40,7 @@ params:
   favicon_shortcut_icon: images/favicon.svg
   custom_stylesheets: []
   dateFormat: 26 FEB 1994
-  description: AI Consulting
+  description: AI Consulting | Software | Products
   author: x-idian
   googleAnalitycsID: G-91RX4ETWLT
   formPost: 'https://contactor.xidian.workers.dev/api/v1/send'
@@ -51,18 +51,13 @@ params:
     placeholder_project_type: Project Type
     placeholder_about_the_project: About the Project
     send_message: Send Message
-    projectType:
-      - value: gd
-        title: Graphics Design
-      - value: wd
-        title: Web Design
   navAction:
     status: true
     name: Get in touch
     url: contact
   banner:
     enable: true
-    background_image: images/backgrounds/hero-option-3.jpg
+    background_image: images/backgrounds/hero-large.jpg
     heading: X-IDIAN
     tagline: 'AI Consulting | Software | Products'
     primary_button: About Us
