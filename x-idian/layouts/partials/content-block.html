@@ -23,15 +23,32 @@
 {{ end }}
 {{ if .Params.table }}
 <div class="container">
-  <div class="row p-1 pb-4">
+    {{ $itemsPerLine := default 8 .Params.tableItemsPerLine }}
+    <table class="table table-borderless">
+    {{ range $key, $value := .Params.Table }}
+        {{ with $key }}
+        <thead>
+        <tr>
+            <th colspan="{{ $itemsPerLine }}">{{ . | strings.ToUpper }}</th>
+        </tr>
+        <tbody>
+        {{ end }}
+        <tr>
+            {{ $totalItems := len $value }}
             {{ $counter := 0 }}
-            {{ range .Params.table }}
-            {{ $counter = add $counter 1 }}
-                <div class="col-3 col-sm-2 p-1">
-                    {{ . }}
-                </div>
+            {{ range $value }}
+                {{ $counter = add $counter 1 }}
+                <td>{{.}}</td>
+                {{ if and (eq (mod $counter $itemsPerLine) 0) (lt $counter $totalItems) }}
+                    </tr>
+                    <tr>
+                {{ end }}
             {{ end }}
-  </div>
+                    </tr>
+        </tbody>
+        {{ end }}
+    </table>
+
   <hr class="xd-hr-light"/>
 </div>
 {{ end }}

@@ -1,7 +1,17 @@
 ---
-title: "Operating Systems"
+title: "OS Applications"
 contentSize: 12
-tableSize: 1
-table: ["Linux", "MacOS", "Windows", "Android", "iOS"]
+table:
+  "mobile":
+    - "Android"
+    - "IOS"
+    - "React Native"
+    - "Flutter"
+    - "Swift"
+    - "Kotlin"
+  "desktop":
+    - "C++"
+    - "Qt"
+    - "Python"
 ---
 
