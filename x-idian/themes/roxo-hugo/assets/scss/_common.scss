@@ -2,6 +2,13 @@ body {
   background: $light-gray-color;
 }
 
+hr {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
 .xd-bg-primary {
   background: $primary-color;
 }
@@ -25,7 +32,7 @@ body {
 .xd-hr-light {
   background: #c5c5c5;
   -webkit-text-fill-color: transparent;
-  height: 1px;
+  height: 2px;
 }
 
 .img-responsive {

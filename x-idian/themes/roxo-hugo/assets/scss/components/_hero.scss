@@ -1,6 +1,7 @@
 .site-hero{
   position: relative;
   height: 100vh;
+  background-color: #333;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -42,6 +43,7 @@
       .btn-contact {
         font-size: 22px;
         width: 200px;
+        animation: none;
 
         @media screen {
           margin-top: 45px;

@@ -5,31 +5,52 @@
     </div>
     {{ end }}
 {{ end }}
-<div class="col-lg-{{ .Params.contentSize | default 8 }} pt-2">
+{{ if .Params.contentSize }}
+<div class="col-lg-{{ .Params.contentSize }} pt-2">
     {{ if .Params.mainTitle }}
-        <h3>{{.Title}}</h3>
-      {{ if .Params.mainTitleLine }}
-          <hr class="xd-hr-gradient"/>
-      {{ end }}
+    <h3>{{.Title}}</h3>
+    {{ if .Params.mainTitleLine }}
+    <hr class="xd-hr-gradient"/>
+    {{ end }}
     {{ else }}
-        {{ if .Params.subTitleLine }}
-          <hr class="xd-hr-gradient"/>
-        {{ end }}
-        <h5>{{ .Title }} </h5>
+    {{ if .Params.subTitleLine }}
+    <hr class="xd-hr-gradient"/>
+    {{ end }}
+    <h5>{{ .Title }} </h5>
     {{ end }}
     <p>{{ .Content }}</p>
 </div>
+{{ end }}
 {{ if .Params.table }}
-<div class="container">
-  <div class="row p-1 pb-4">
+<div class="container table-responsive">
+    {{ $itemsPerLine := default 8 .Params.tableItemsPerLine }}
+    <table class="table table-borderless">
+    {{ range $key, $value := .Params.Table }}
+        {{ $totalItems := len $value }}
+        {{ $colSpanSize := cond (lt $totalItems $itemsPerLine) $totalItems $itemsPerLine }}
+        {{ with $key }}
+        <thead>
+        <tr>
+            <th colspan="{{ $colSpanSize }}">{{ . | strings.Title }}</th>
+        </tr>
+        <tbody>
+        {{ end }}
+        <tr>
+
             {{ $counter := 0 }}
-            {{ range .Params.table }}
-            {{ $counter = add $counter 1 }}
-                <div class="col-3 col-sm-2 p-1">
-                    {{ . }}
-                </div>
+            {{ range $value }}
+                {{ $counter = add $counter 1 }}
+                <td>{{.}}</td>
+                {{ if and (eq (mod $counter $itemsPerLine) 0) (lt $counter $totalItems) }}
+                    </tr>
+                    <tr>
+                {{ end }}
             {{ end }}
-  </div>
+                    </tr>
+        </tbody>
+        {{ end }}
+    </table>
+
   <hr class="xd-hr-light"/>
 </div>
 {{ end }}

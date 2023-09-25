@@ -1,8 +1,6 @@
 ---
 title: "Our mission"
-contentSize: 8
-image: images/about/mission.jpg
-imageSize: 4
+contentSize: 4
 mainTitle: true
 ---
 
