@@ -34,7 +34,7 @@
   font-weight: bold;
   border-radius: 25px;
   width: 150px;
-  animation: fade 5s linear 2s infinite;
+  animation: fade 10s linear 2s infinite;
 
   &:hover{
     color: white;
@@ -42,12 +42,12 @@
   }
 
   @keyframes fade {
-    0%,10% {
-      outline: 3px solid rgba(255,255,255,0.7);
+    0%,2% {
+      outline: 2px solid rgba(255,255,255,0.7);
     }
-    20%, 100% {
+    5%, 100% {
       outline: 3px solid rgba(255,255,255,0);
-      outline-offset: 15px;
+      outline-offset: 10px;
     }
   }
 }
