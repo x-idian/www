@@ -15,10 +15,10 @@
     </button>
 
     <div class="collapse navbar-collapse" id="sitenavbar">
-      <div class="navbar-nav ml-auto main-nav">
+      <ul class="navbar-nav ms-auto main-nav">
         {{ range .Site.Menus.main }}
           {{ if (eq "dropdown" .Pre) }}
-          <div class="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle"  href="{{ .URL | absURL }}" id="navbarDropdownMenuLink-{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-{{ .Identifier }}">
               {{ range (index site.Menus .Identifier) }}
@@ -26,18 +26,18 @@
                  href="{{ .URL | absLangURL }}">{{- .Name -}}</a>
               {{ end }}
             </div>
-          </div>
+          </li>
           {{ else }}
-          <div class="nav-item">
+          <li class="nav-item">
             {{ if eq .Identifier "contact" }}
               <a class="nav-link btn-contact m-auto" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ else }}
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ end }}
-          </div>
+          </li>
           {{ end }}
         {{ end }}
-      </div>
+      </ul>
     </div>
   </div>
 </nav>
