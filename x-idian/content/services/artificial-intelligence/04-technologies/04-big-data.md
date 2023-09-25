@@ -7,5 +7,6 @@ table:
     - "Hadoop"
     - "Spark"
     - "Hive"
+    - "Airflow"
+    - "Flink"
 ---
-
