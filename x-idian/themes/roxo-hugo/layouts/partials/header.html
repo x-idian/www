@@ -30,12 +30,10 @@
           {{ else }}
           <div class="nav-item">
             {{ if eq .Identifier "contact" }}
-              <a class="btn btn-contact nav-link" href="{{ .URL | absURL }}">
+              <a class="nav-link btn-contact m-auto" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ else }}
-              <a class="nav-link" href="{{ .URL | absURL }}">
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ end }}
-              {{ .Name }}
-            </a>
           </div>
           {{ end }}
         {{ end }}
