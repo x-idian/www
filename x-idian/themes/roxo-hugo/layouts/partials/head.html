@@ -39,7 +39,7 @@
 
   {{ $jQuery := resources.Get "js/jquery.js" }}
   <script src="{{ $jQuery.Permalink }}"></script>
-  {{ $bootstrapJs := resources.Get "js/bootstrap.min.js" }}
+  {{ $bootstrapJs := resources.Get "js/bootstrap.bundle.js" }}
   <script src="{{ $bootstrapJs.Permalink }}"></script>
   {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
   <script src="{{ $formhandler.Permalink }}"></script>
