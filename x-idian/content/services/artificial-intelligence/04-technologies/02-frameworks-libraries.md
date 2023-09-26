@@ -7,6 +7,7 @@ table:
     - "Tensorflow"
     - "MXnet"
     - "Kedro"
+    - "Keras"
     - "Sci-kit"
     - "Scipy"
     - "Matplotlib"

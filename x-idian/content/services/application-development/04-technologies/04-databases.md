@@ -5,15 +5,13 @@ table:
   "Relational":
     - "PostgreSQL"
     - "MySQL"
-    - "OracleDB"
+    - "Oracle"
     - "TeraData"
     - "Microsoft SQL"
-    - "Dart"
-    - "C++"
-    - "C#"
-    - "JavaScript"
-    - "TypeScript"
   "Non relational":
     - "MongoDB"
+    - "Redis"
+    - "Neo4j"
+    - "Couchbase"
     - "Casandra"
 ---
