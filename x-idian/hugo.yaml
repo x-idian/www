@@ -59,7 +59,7 @@ params:
     enable: true
     background_image: images/backgrounds/hero-large.jpg
     heading: X-IDIAN
-    tagline: 'AI Consulting | Software | Products'
+    tagline: 'Building a better future with you by harnessing the power of AI'
     primary_button: About Us
   footer:
     params:
