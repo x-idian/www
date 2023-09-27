@@ -6,14 +6,15 @@ table:
   "Languages":
       - "Python"
       - "Java"
-      - "C"
       - "Go"
       - "Kotlin"
       - "Dart"
+      - "C"
       - "C++"
       - "C#"
       - "Javascript"
       - "TypeScript"
+      - "HTML"
       - "CSS"
       - "SCSS"
   "Frameworks":

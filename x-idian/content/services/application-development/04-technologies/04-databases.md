@@ -3,17 +3,15 @@ title: "Database"
 contentSize: 12
 table:
   "Relational":
-    - "PostgreSQL"
-    - "MySQL"
-    - "OracleDB"
-    - "TeraData"
-    - "Microsoft SQL"
-    - "Dart"
-    - "C++"
-    - "C#"
-    - "JavaScript"
-    - "TypeScript"
+      - "PostgreSQL"
+      - "MySQL"
+      - "Oracle"
+      - "TeraData"
+      - "Microsoft SQL"
   "Non relational":
     - "MongoDB"
+    - "Redis"
+    - "Neo4j"
+    - "Couchbase"
     - "Casandra"
 ---

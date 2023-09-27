@@ -1,6 +1,12 @@
 <head>
   <meta charset="utf-8" />
-  <title>{{ .Title }}</title>
+  <title>
+{{- if .Page.Title -}}
+{{ .Page.Title }}
+{{- else -}}
+{{ .Site.Title }}
+{{- end -}}
+  </title>
 
   {{ with .Site.Params.googleAnalitycsID }}
   <!-- Google tag (gtag.js) -->

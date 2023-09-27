@@ -3,12 +3,12 @@ title: "OS Applications"
 contentSize: 12
 table:
   "mobile":
-    - "Android"
-    - "IOS"
-    - "React Native"
-    - "Flutter"
-    - "Swift"
-    - "Kotlin"
+      - "Android"
+      - "IOS"
+      - "React Native"
+      - "Flutter"
+      - "Swift"
+      - "Kotlin"
   "desktop":
     - "C++"
     - "Qt"

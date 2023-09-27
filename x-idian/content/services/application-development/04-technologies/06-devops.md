@@ -7,8 +7,11 @@ table:
     - "Terraform"
     - "Pulumi"
     - "SaltStack"
+    - "Chef"
+    - "Puppet"
   "Containers":
     - "Docker"
+    - "Podman"
     - "Kubernetes"
     - "Rancher"
     - "OpenShift"
@@ -16,9 +19,14 @@ table:
     - "Github"
     - "Jenkins"
     - "Gitlab"
+    - "ArgoCD"
+    - "Bamboo"
+    - "TeamCity"
   "Monitoring":
     - "Grafana"
-    - "ElasticSearch/OpenSearch"
+    - "ElasticStack"
     - "Prometheus"
+    - "Datadog"
+    - "Dynatrace"
     - "FluentD"
 ---
