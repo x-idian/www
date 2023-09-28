@@ -1,5 +1,5 @@
 ---
-title: "Front-end programing languages"
+title: "Frameworks and Libraries"
 contentSize: 12
 table:
   "":
