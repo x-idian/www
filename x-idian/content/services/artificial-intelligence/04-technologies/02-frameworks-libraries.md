@@ -2,18 +2,19 @@
 title: "Frameworks and Libraries"
 contentSize: 12
 table:
-  "":
+  "Frameworks":
     - "PyTorch"
     - "Tensorflow"
-    - "MXnet"
     - "Kedro"
     - "Keras"
-    - "Sci-kit"
-    - "Scipy"
-    - "Matplotlib"
-    - "Seaborn"
     - "OpenCV"
+  "Libraries":
+    - "MXnet"
+    - "Spark MLlib"
+    - "scikit-learn"
+    - "Scipy"
     - "spaCy"
-    - "Spark"
+    - "Matplotlib"
     - "NLTK"
+    - "Seaborn"
 ---
