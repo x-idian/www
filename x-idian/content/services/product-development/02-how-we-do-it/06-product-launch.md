@@ -1,8 +1,8 @@
 ---
 title: "Step 6. Product launch"
-contentSize: 8
+contentSize: 9 
 image: images/services/product-development/how-step-6-launch.jpg
-imageSize: 4
+imageSize: 3 
 ---
 
 We set up the app's infrastructure, backup and recovery procedures, and establish 
