@@ -1,9 +1,9 @@
 ---
 title: "Step 3. Project planning"
-contentSize: 8
+contentSize: 9
 imageFirst: true
 image: images/services/product-development/how-step-3-planning.jpg
-imageSize: 4
+imageSize: 3
 ---
 
 At this stage, we create a comprehensive development project plan that outlines the project's goals,
