@@ -9,16 +9,20 @@ module:
       target: "assets"
     - source: "static"
       target: "static"
-    - source: "node_modules/bootstrap-icons/font/fonts"
-      target: "static/css/fonts"
     - source: node_modules/bootstrap/scss
       target: assets/scss/bootstrap
+    - source: node_modules/bootstrap-icons/font
+      target: assets/scss/bootstrap-icons
+    - source: node_modules/bootstrap-icons/font/fonts
+      target: static/scss/fonts
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.js
       target: assets/js/bootstrap.bundle.js
     - source: node_modules/jquery/dist/jquery.js
       target: assets/js/jquery.js
-    - source: "node_modules/bootstrap-icons/font/fonts"
-      target: "static/scss/fonts"
+    - source: node_modules/@fontsource/noto-sans/files
+      target: static/scss/files
+    - source: node_modules/@fontsource/montserrat/files
+      target: static/scss/files
 menu:
   main:
     - name: Home
