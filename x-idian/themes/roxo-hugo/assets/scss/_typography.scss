@@ -12,18 +12,6 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
 h1, h2, h3, h4, h5, h6{
   font-family: $secondary-font;
   font-weight: 600;

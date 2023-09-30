@@ -28,10 +28,6 @@
   {{ end }}
   {{ hugo.Generator }}
 
-  {{ "<!-- Bootstrap -->" | safeHTML }}
-  {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
-  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   {{ "<!-- font-awesome -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
@@ -47,10 +43,12 @@
   <link rel="shortcut icon" href="{{ .Site.Params.favicon_shortcut_icon | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ .Site.Params.favicon_icon | absURL }}" type="image/x-icon" />
 
+  {{ $jQuery := resources.Get "js/jquery.js" }}
+  <script src="{{ $jQuery.Permalink }}"></script>
+  {{ $bootstrapJs := resources.Get "js/bootstrap.bundle.js" }}
+  <script src="{{ $bootstrapJs.Permalink }}"></script>
   {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
   <script src="{{ $formhandler.Permalink }}"></script>
-  {{ $vendor := resources.Get "js/vendor.js" | minify }}
-  <script src="{{ $vendor.Permalink }}"></script>
   {{ $script := resources.Get "js/script.js" | minify }}
   <script src="{{ $script.Permalink }}"></script>
 </head>
