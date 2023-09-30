@@ -1,41 +1,26 @@
-window.addEventListener("DOMContentLoaded", function() {
-  var form = document.getElementById("contact-form");
-  if (form !== null) {
-    var button = document.getElementById("contact-form-button");
-    var status = document.getElementById("contact-form-status");
+$(document).ready(function() {
+  "use strict";
 
-    function success() {
-      form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks! Contact form was submitted successfully.";
-    }
+  $("#contact-form").submit(function (event) {
+    event.preventDefault();
 
-    function error() {
-      status.innerHTML = "Oops! There was a problem.";
-    }
+    var form = $("#contact-form")
+    var statusBox = $("#contact-form-status")
+    var submitButton = $("#contact-form-button")
 
-    // handle the form submission event
+    console.log(form);
 
-    form.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var data = new FormData(form);
-      ajax(form.method, form.action, data, success, error);
-    });
-  }
+    $.post({
+      url: form.attr('action'),
+      data: form.serialize(),
+    })
+        .done(function (e){
+          form[0].reset()
+          submitButton.hide();
+          statusBox.text("Thank you. Contact form was submitted successfully.");
+        })
+        .fail(function (){
+          statusBox.text("Oops! There was a problem submitting the form. Try to resubmit or email us.");
+        })
+  })
 });
-
-// helper function for sending an AJAX request
-
-function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
-  xhr.open(method, url);
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
-    if (xhr.status === 200) {
-      success(xhr.response, xhr.responseType);
-    } else {
-      error(xhr.status, xhr.response, xhr.responseType);
-    }
-  };
-  xhr.send(data);
-}
