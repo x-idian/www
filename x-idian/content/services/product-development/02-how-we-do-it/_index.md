@@ -1,5 +1,5 @@
 ---
-title: "Our process"
+title: "How we work"
 background: "light"
 contentSize: 12
 image: images/services/product-development/how-our-process.svg
