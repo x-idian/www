@@ -28,14 +28,12 @@
   {{ end }}
   {{ hugo.Generator }}
 
-  {{ "<!-- font-awesome -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
-  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
   {{ range .Site.Params.custom_stylesheets -}}
-    {{ $style := resources.Get . | resources.ToCSS | minify }}
+    {{ $style := resources.Get . | resources.ToCSS | resources.Minify }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
   {{- end }}
 
@@ -43,12 +41,16 @@
   <link rel="shortcut icon" href="{{ .Site.Params.favicon_shortcut_icon | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ .Site.Params.favicon_icon | absURL }}" type="image/x-icon" />
 
-  {{ $jQuery := resources.Get "js/jquery.js" }}
-  <script src="{{ $jQuery.Permalink }}"></script>
-  {{ $bootstrapJs := resources.Get "js/bootstrap.bundle.js" }}
-  <script src="{{ $bootstrapJs.Permalink }}"></script>
-  {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
-  <script src="{{ $formhandler.Permalink }}"></script>
-  {{ $script := resources.Get "js/script.js" | minify }}
-  <script src="{{ $script.Permalink }}"></script>
+  {{ $jQuery := resources.Get "js/jquery.js" | resources.Minify }}
+  {{ $secureJS := $jQuery | resources.Fingerprint "sha512" }}
+  <script src="{{ $secureJS.Permalink }}"></script>
+  {{ $bootstrapJs := resources.Get "js/bootstrap.bundle.js" | resources.Minify  }}
+  {{ $secureJS := $bootstrapJs | resources.Fingerprint "sha512" }}
+  <script src="{{ $secureJS.Permalink }}"></script>
+  {{ $formHandler := resources.Get "js/formhandler.js" | resources.Minify  }}
+  {{ $secureJS := $formHandler | resources.Fingerprint "sha512" }}
+  <script src="{{ $secureJS.Permalink }}"></script>
+  {{ $script := resources.Get "js/script.js" | resources.Minify  }}
+  {{ $secureJS := $script | resources.Fingerprint "sha512" }}
+  <script src="{{ $secureJS.Permalink }}"></script>
 </head>
