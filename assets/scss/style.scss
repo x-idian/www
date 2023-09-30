@@ -1,8 +1,7 @@
-@import "bootstrap/bootstrap";
-@import "bootstrap-icons/bootstrap-icons";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 @import "node_modules/@fontsource/noto-sans";
 @import "node_modules/@fontsource/montserrat";
-
 
 @import "variables";
 
@@ -18,23 +17,11 @@
 
 @import "components/hero";
 
-@import "components/counter";
-
 @import "components/project";
-
-@import "components/blog";
-
-@import "components/testimonial";
 
 @import "components/cta";
 
 @import "components/about";
-
-@import "components/expertise";
-
-@import "components/client";
-
-@import "components/team";
 
 @import "components/contact";
 

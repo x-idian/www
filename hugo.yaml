@@ -1,7 +1,6 @@
 baseURL: 'https://x-idian.com/'
 languageCode: en-us
 title: x-idian - AI | Software | Products
-theme: "roxo-hugo"
 summarylength: 25
 module:
   mounts:
@@ -9,10 +8,6 @@ module:
       target: "assets"
     - source: "static"
       target: "static"
-    - source: node_modules/bootstrap/scss
-      target: assets/scss/bootstrap
-    - source: node_modules/bootstrap-icons/font
-      target: assets/scss/bootstrap-icons
     - source: node_modules/bootstrap-icons/font/fonts
       target: static/scss/fonts
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.js
@@ -56,17 +51,6 @@ params:
   author: x-idian
   googleAnalitycsID: G-91RX4ETWLT
   formPost: 'https://contactor.xidian.workers.dev/api/v1/send'
-  contactForm:
-    placeholder_first_name: First Name
-    placeholder_last_name: Last Name
-    placeholder_email: Email
-    placeholder_project_type: Project Type
-    placeholder_about_the_project: About the Project
-    send_message: Send Message
-  navAction:
-    status: true
-    name: Get in touch
-    url: contact
   banner:
     enable: true
     background_image: images/backgrounds/hero-large.jpg
