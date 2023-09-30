@@ -30,11 +30,13 @@
 
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Minify }}
-  <link href="{{ $style.Permalink }}" rel="stylesheet" />
+  {{ $secureCSS := $style | resources.Fingerprint "sha512" }}
+  <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}" />
 
   {{ range .Site.Params.custom_stylesheets -}}
     {{ $style := resources.Get . | resources.ToCSS | resources.Minify }}
-    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+    {{ $secureCSS := $style | resources.Fingerprint "sha512" }}
+    <link href="{{ $secureCSS.Permalink }}" rel="stylesheet" integrity="{{ $secureCSS.Data.Integrity }}" />
   {{- end }}
 
   <!--Favicon-->
@@ -43,14 +45,14 @@
 
   {{ $jQuery := resources.Get "js/jquery.js" | resources.Minify }}
   {{ $secureJS := $jQuery | resources.Fingerprint "sha512" }}
-  <script src="{{ $secureJS.Permalink }}"></script>
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
   {{ $bootstrapJs := resources.Get "js/bootstrap.bundle.js" | resources.Minify  }}
   {{ $secureJS := $bootstrapJs | resources.Fingerprint "sha512" }}
-  <script src="{{ $secureJS.Permalink }}"></script>
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
   {{ $formHandler := resources.Get "js/formhandler.js" | resources.Minify  }}
   {{ $secureJS := $formHandler | resources.Fingerprint "sha512" }}
-  <script src="{{ $secureJS.Permalink }}"></script>
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
   {{ $script := resources.Get "js/script.js" | resources.Minify  }}
   {{ $secureJS := $script | resources.Fingerprint "sha512" }}
-  <script src="{{ $secureJS.Permalink }}"></script>
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 </head>
