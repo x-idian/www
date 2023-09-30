@@ -22,20 +22,17 @@
   {{ if .Params.table }}
   <div class="container">
     <div class="row col-12 pb-4">
-      {{ $counter := 0 }}
-
       {{ range $key, $value := .Params.table }}
 
-      {{ with $key }}
-      <div class="row col-12 col-md-6">
-        <div class="h5 col-12 pb-4">{{ . | strings.Title }}</div>
-        {{ end }}
 
+      <div class="row col-12 col-md-6">
+        {{ with $key }}
+        <div class="h5 col-12 pb-4">{{ . | strings.ToUpper }}</div>
+        {{ end }}
         {{ range $value}}
-        {{ $counter = add $counter 1 }}
-        <div class="col-12 col-sm-6 pb-4">
-          {{ . }}
-        </div>
+            <div class="col-12 col-sm-6 pb-4">
+              {{ . }}
+            </div>
         {{ end }}
       </div>
       {{ end }}
