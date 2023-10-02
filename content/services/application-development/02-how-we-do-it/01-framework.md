@@ -1,7 +1,7 @@
 ---
 title: ""
 contentSize: 8
-image: images/services/application-development/how-our-process.svg
+image: images/services/application-development/how-our-process.png
 imageSize: 4
 imageFirst: true
 ---
