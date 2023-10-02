@@ -1,5 +1,5 @@
 ---
-title: "Step 3. Project planning"
+title: "Step 3. Project Planning"
 contentSize: 9
 imageFirst: true
 image: images/services/product-development/how-step-3-planning.jpg

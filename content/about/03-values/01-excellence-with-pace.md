@@ -1,5 +1,5 @@
 ---
-title: "Excellence with pace"
+title: "Excellence with Pace"
 contentSize: 4
 subTitleLine: true
 ---

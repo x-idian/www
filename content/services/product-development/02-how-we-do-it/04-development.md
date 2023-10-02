@@ -1,5 +1,5 @@
 ---
-title: "Step 4. Development and quality assurance"
+title: "Step 4. Development and Quality Assurance"
 contentSize: 12
 ---
 

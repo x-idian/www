@@ -1,5 +1,5 @@
 ---
-title: "Step 6. Product launch"
+title: "Step 6. Product Launch"
 contentSize: 9 
 image: images/services/product-development/how-step-6-launch.jpg
 imageSize: 3 

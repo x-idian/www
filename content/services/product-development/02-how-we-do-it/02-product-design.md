@@ -1,5 +1,5 @@
 ---
-title: "Step 2. Product design"
+title: "Step 2. Product Design"
 contentSize: 12
 ---
 
