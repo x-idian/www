@@ -21,6 +21,16 @@ hr {
   }
 }
 
+.custom-ai-our-process {
+  max-width: 75% !important;
+  padding: 1.5rem;
+
+  @include tablet {
+    max-width: 100% !important;
+    padding: 0.5rem;
+  }
+}
+
 
 .xd-hr-gradient {
   background: -webkit-linear-gradient(-10deg,

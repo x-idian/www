@@ -45,7 +45,8 @@
 {{ if not (.Params.imageFirst) }}
     {{ if .Params.Image }}
     <div class="col-lg-{{ .Params.imageSize | default 4 }} d-flex justify-content-center p-2">
-        <img class="rounded img-responsive" src="{{ .Params.Image | absURL }}" alt="post-thumb">
+        <img class="rounded img-responsive {{ .Params.ImageClass}}"
+             src="{{ .Params.Image | absURL }}" alt="post-thumb">
     </div>
     {{ end }}
 {{ end }}
