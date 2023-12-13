@@ -4,9 +4,9 @@ $(document).ready(function() {
   $("#contact-form").submit(function (event) {
     event.preventDefault();
 
-    var form = $("#contact-form")
-    var statusBox = $("#contact-form-status")
-    var submitButton = $("#contact-form-button")
+    var form = $("#contact-form");
+    var statusBox = $("#contact-form-status");
+    var submitButton = $("#contact-form-button");
 
     console.log(form);
 
