@@ -52,7 +52,7 @@ params:
     enable: true
     background_image: images/backgrounds/hero-large.jpg
     heading: X-IDIAN
-    tagline: 'Using the Art of Intelligence to Liberate the Human'
+    tagline: 'Using the Art of Intelligence to help liberate people'
     primary_button: About Us
   footer:
     params:
