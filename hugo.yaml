@@ -44,7 +44,7 @@ params:
   favicon_shortcut_icon: images/favicon.svg
   custom_stylesheets: []
   dateFormat: 26 FEB 1994
-  description: AI Consulting | Software | Products
+  description: AI Consulting | Software
   author: x-idian
   googleAnalitycsID: G-91RX4ETWLT
   formPost: 'https://contactor.xidian.workers.dev/api/v1/send'
