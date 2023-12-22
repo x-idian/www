@@ -37,9 +37,6 @@ menu:
     - name: Application Development
       url: services/application-development
       weight: 2
-    - name: Product Development
-      url: services/product-development
-      weight: 3
 params:
   logo: images/logo-light.svg
   logo_footer: images/logo.svg
@@ -55,7 +52,7 @@ params:
     enable: true
     background_image: images/backgrounds/hero-large.jpg
     heading: X-IDIAN
-    tagline: 'Building a better future with you by harnessing the power of AI'
+    tagline: 'Using the Art of Intelligence to Liberate the Human'
     primary_button: About Us
   footer:
     params:
@@ -80,5 +77,3 @@ Johannesburg<br>
           url: services/artificial-intelligence
         - name: Application Development
           url: services/application-development
-        - name: Product Development
-          url: services/product-development
