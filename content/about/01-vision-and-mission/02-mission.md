@@ -4,7 +4,5 @@ contentSize: 4
 mainTitle: true
 ---
 
-X-idian is on a mission to lead the AI revolution by creating groundbreaking innovations 
-and transforming industries. We aim to push the boundaries of AI technology and create 
-solutions that revolutionize businesses, improve lives, and shape the future of 
-industries worldwide.
+X-idian is dedicated to transforming the insurance landscape, eradicating routine burdens 
+to allow for a focus on more strategic, satisfying, and customer-focused initiatives.

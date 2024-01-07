@@ -6,5 +6,5 @@ imageSize: 4
 mainTitle: true
 ---
 
-Our vision is to generate positive and meaningful effects that enhance the well-being
-and experiences of people on a global scale.
+To transform the world by eliminating mundane work, liberating people to pursue richer 
+and more fulfilling endeavors.
