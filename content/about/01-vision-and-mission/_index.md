@@ -1,3 +1,0 @@
----
-contentSize: 0
----
