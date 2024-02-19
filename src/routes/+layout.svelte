@@ -2,14 +2,14 @@
     import "tailwindcss/tailwind.css";
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 fixed z-10 top-0">
     <div class="flex-1">
-        <a class="btn btn-ghost text-xl">X-IDIAN</a>
+        <a class="btn btn-ghost text-xl" href="/">X-IDIAN</a>
     </div>
     <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
             <li>
                 <details>
                     <summary>
