@@ -2,21 +2,20 @@
     import vision_img from '$lib/assets/about/vision.jpeg';
 </script>
 
-<section class="flex items-center xl:h-screen font-poppins">
+<section class="flex font-poppins pt-28 px-2.5">
     <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-        <div class="flex flex-wrap ">
-            <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                <div class="relative lg:max-w-md">
+        <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
+            <h1 class="mt-2 text-2xl font-bold md:text-4xl">
+                Who we are
+            </h1>
+        </div>
+        <div class="flex flex-wrap justify-center">
+            <div class="px-4 mb-10 lg:w-1/2 lg:mb-0">
+                <div class="relative max-w-sm lg:max-w-md">
                     <img class="relative object-cover w-full rounded" alt="Our vision" src={vision_img} />
                 </div>
             </div>
             <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-                <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
-                    <span class="text-sm uppercase">Who we are?</span>
-                    <h1 class="mt-2 text-3xl font-bold md:text-5xl">
-                        About Us
-                    </h1>
-                </div>
                 <div class="flex mb-4">
                         <span
                                 class="flex items-center justify-center flex-shrink-0 w-12 h-12 mr-6 bg-blue-500 rounded dark:bg-blue-500 dark:text-gray-100 text-gray-50">
@@ -58,6 +57,46 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="flex font-poppins pt-16 px-2.5">
+    <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+        <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
+            <h1 class="mt-2 text-2xl font-bold md:text-4xl">
+                Our Values
+            </h1>
+        </div>
+        <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-4">
+            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
+                <div class="card-body">
+                    <h2 class="card-title">Excellence with Pace</h2>
+                    <p>We are committed to excellence in everything we do, from working with clients and our team to partnering with others and supporting the community. We aim for outstanding results, but we don’t let perfectionism get in the way.</p>
+                </div>
+            </div>
+            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
+                <div class="card-body">
+                    <h2 class="card-title">Fun with Accountability</h2>
+                    <p>We work hard and have fun, and we take responsibility for our work. We believe that having fun at work makes us more engaged, creative, and productive. We take our work seriously, but we don’t take ourselves too seriously.</p>
+                </div>
+            </div>
+            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
+                <div class="card-body">
+                    <h2 class="card-title">Curiosity with Bravery</h2>
+                    <p>Curiosity and determination are key to our innovation and growth. Curiosity fuels our learning culture, while courage helps us take risks and try new things. Together, they spark groundbreaking discoveries and inventive solutions.</p>
+                </div>
+            </div>
+            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
+                <div class="card-body">
+                    <h2 class="card-title">Curiosity with Bravery</h2>
+                    <p>Curiosity and determination are key to our innovation and growth. Curiosity fuels our learning culture, while courage helps us take risks and try new things. Together, they spark groundbreaking discoveries and inventive solutions.</p>
+                </div>
+            </div>
+
+
+<!-- TODO Make loop-->
+
         </div>
     </div>
 </section>
