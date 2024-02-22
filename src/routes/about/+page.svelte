@@ -1,5 +1,6 @@
 <script>
     import vision_img from '$lib/assets/about/vision.jpeg';
+    import {our_values} from "$lib/data/about";
 </script>
 
 <section class="flex font-poppins pt-28 px-2.5">
@@ -63,37 +64,20 @@
 
 <section class="flex font-poppins pt-16 px-2.5">
     <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-        <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
+        <div class="pl-4 mb-6 border-l-4 border-blue-500">
             <h1 class="mt-2 text-2xl font-bold md:text-4xl">
                 Our Values
             </h1>
         </div>
         <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-4">
+            {#each our_values as value}
             <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
                 <div class="card-body">
-                    <h2 class="card-title">Excellence with Pace</h2>
-                    <p>We are committed to excellence in everything we do, from working with clients and our team to partnering with others and supporting the community. We aim for outstanding results, but we don’t let perfectionism get in the way.</p>
+                    <h2 class="card-title">{ value.title }</h2>
+                    <p>{ value.body }</p>
                 </div>
             </div>
-            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
-                <div class="card-body">
-                    <h2 class="card-title">Fun with Accountability</h2>
-                    <p>We work hard and have fun, and we take responsibility for our work. We believe that having fun at work makes us more engaged, creative, and productive. We take our work seriously, but we don’t take ourselves too seriously.</p>
-                </div>
-            </div>
-            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
-                <div class="card-body">
-                    <h2 class="card-title">Curiosity with Bravery</h2>
-                    <p>Curiosity and determination are key to our innovation and growth. Curiosity fuels our learning culture, while courage helps us take risks and try new things. Together, they spark groundbreaking discoveries and inventive solutions.</p>
-                </div>
-            </div>
-            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
-                <div class="card-body">
-                    <h2 class="card-title">Curiosity with Bravery</h2>
-                    <p>Curiosity and determination are key to our innovation and growth. Curiosity fuels our learning culture, while courage helps us take risks and try new things. Together, they spark groundbreaking discoveries and inventive solutions.</p>
-                </div>
-            </div>
-
+            {/each}
 
 <!-- TODO Make loop-->
 
