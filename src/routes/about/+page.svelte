@@ -71,16 +71,13 @@
         </div>
         <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-4">
             {#each our_values as value}
-            <div class="card grid bg-base-300 text-base-content shadow-xl hover:bg-primary hover:text-primary-content">
+            <div class="card grid bg-base-300 text-base-content shadow-xl ease-in duration-100 hover:bg-primary hover:text-primary-content">
                 <div class="card-body">
                     <h2 class="card-title">{ value.title }</h2>
                     <p>{ value.body }</p>
                 </div>
             </div>
             {/each}
-
-<!-- TODO Make loop-->
-
         </div>
     </div>
 </section>
