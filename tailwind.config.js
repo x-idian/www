@@ -11,6 +11,14 @@ export default {
       addDynamicIconSelectors()
   ],
   daisyui: {
-    themes: ["light"],
+    themes: [
+        "light",
+      {
+        xdTheme: {
+          "primary": "#27a770",
+          "secondary": "#193479",
+        },
+      },
+    ],
   },
 }

@@ -1,10 +1,12 @@
 <script>
     import "tailwindcss/tailwind.css";
+    import {onMount} from "svelte";
 
     let currentYear = new Date().getFullYear();
+
 </script>
 
-<div class="navbar bg-base-100 fixed z-10 top-0">
+<div class="navbar bg-transparent absolute z-10 top-0 text-white">
     <div class="flex-1">
         <a class="btn btn-ghost text-xl" href="/">X-IDIAN</a>
     </div>
@@ -17,7 +19,7 @@
     </div>
 </div>
 
-<slot />
+<slot class="top-0" />
 
 <footer class="footer footer-center p-10 bg-base-300">
     <nav class="grid grid-flow-col gap-4">

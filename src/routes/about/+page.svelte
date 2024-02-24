@@ -2,9 +2,17 @@
     import vision_img from '$lib/assets/about/vision.jpeg';
     import diff_img from '$lib/assets/about/differentiators.jpg';
     import {our_values, our_differentiators} from "$lib/data/about";
+    import about_img from "$lib/assets/about/about.jpg";
 </script>
+<section class="flex font-poppins h-[350px] px-2.5 bg-no-repeat bg-cover" style="background-image: url({about_img});">
+    <div class="flex items-center mx-auto">
+        <h1 class="text-2xl font-bold md:text-4xl text-white">
+            About Us
+        </h1>
+    </div>
+</section>
 
-<section class="flex font-poppins pt-28 px-2.5">
+<section class="flex font-poppins px-2.5">
     <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
         <div class="pl-4 mb-6 border-l-4 border-primary">
             <h1 class="mt-2 text-2xl font-bold md:text-4xl">

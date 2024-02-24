@@ -1,11 +1,10 @@
 <script>
-    import vision_img from '$lib/assets/about/vision.jpeg';
-    import {our_values} from "$lib/data/about";
+    import about_img from "$lib/assets/about/about.jpg";
 </script>
 
-<section class="flex font-poppins pt-28 px-2.5">
-    <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
-        <h1 class="mt-2 text-2xl font-bold md:text-4xl">
+<section class="flex font-poppins h-[350px] px-2.5 bg-no-repeat bg-cover" style="background-image: url({about_img});">
+    <div class="flex items-center mx-auto">
+        <h1 class="text-2xl font-bold md:text-4xl text-white">
             Contact us
         </h1>
     </div>
@@ -33,13 +32,11 @@
                     </h1>
                     <div class="w-full mt-5 sm:mt-8">
                         <div class="mx-auto w-full sm:max-w-md md:max-w-lg flex flex-col gap-5">
-                            <div class="flex flex-col sm:flex-row gap-3">
-                                <input
-                                        type="text"
-                                        placeholder="Name"
-                                        class="input input-bordered input-primary w-full max-w-xs text-black placeholder:text-black/70"
-                                />
-                            </div>
+                            <input
+                                    type="text"
+                                    placeholder="Name"
+                                    class="input input-bordered input-primary w-full text-black placeholder:text-black/70"
+                            />
                             <input
                                     type="text"
                                     placeholder="Email"
