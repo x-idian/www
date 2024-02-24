@@ -40,6 +40,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@iconify/json": "^1.1.10",
+		"@iconify/tailwind": "^0.1.4",
 		"theme-change": "^2.5.0"
 	}
 }
