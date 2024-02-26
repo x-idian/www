@@ -19,7 +19,7 @@
                 Who we are
             </h1>
         </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center items-center">
             <div class="mb-10 lg:w-5/12 lg:mb-0">
                     <img class="max-w-md w-full rounded-lg shadow-2xl" alt="Our vision" src={vision_img} />
             </div>

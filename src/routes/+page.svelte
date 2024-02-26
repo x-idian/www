@@ -1,5 +1,7 @@
 <script>
     import hero_img from '$lib/assets/hero-large.jpg';
+    import vision_img from "$lib/assets/about/vision.jpeg";
+    import {how_we_can_help} from "$lib/data/home";
 </script>
 
 <div class="hero min-h-screen" style="background-image: url({hero_img});">
@@ -16,13 +18,46 @@
     </div>
 
 </div>
-<div class="hero min-h-screen bg-base-200">
-    <div class="hero-content flex-col lg:flex-row">
-        <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" class="max-w-sm rounded-lg shadow-2xl" />
-        <div>
-            <h1 class="text-5xl font-bold">Artificial Intelligence</h1>
-            <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button class="btn btn-primary">Get Started</button>
+<div class="pt-[5%] bg-base-200">
+    <div class="flex flex-col lg:flex-row w-full">
+        <div class="mx-auto">
+            <h1 class="text-5xl font-bold pb-10 text-center">How can we help?</h1>
+            {#each how_we_can_help as value, i }
+            {#if i%2 === 0}
+                <div class="flex flex-col lg:flex-row py-10">
+                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 lg:justify-end">
+                        <img class="max-w-md w-full rounded-lg shadow-2xl" alt="Our vision" src={value.image} />
+                    </div>
+                    <div class="flex lg:px-6 mb-10 lg:w-6/12 lg:mb-0 justify-start items-center">
+                        <div class="max-w-lg">
+                            <h2 class="text-xl font-bold leading-tight md:text-2xl pb-5">
+                                {value.title}
+                            </h2>
+                            <p class="text-base leading-loose">
+                                {value.body}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {:else }
+                <div class="flex flex-col lg:flex-row py-10">
+                    <div class="flex lg:px-6 mb-10 lg:w-6/12 lg:mb-0 lg:justify-end items-center">
+                        <div class="max-w-lg">
+                            <h2 class="text-xl font-bold leading-tight md:text-2xl pb-5">
+                                {value.title}
+                            </h2>
+                            <p class="text-base leading-loose">
+                                {value.body}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 lg:justify-start">
+                        <img class="max-w-md w-full rounded-lg shadow-2xl" alt="Our vision" src={value.image} />
+                    </div>
+                </div>
+            {/if}
+            {/each}
+
         </div>
     </div>
 </div>
