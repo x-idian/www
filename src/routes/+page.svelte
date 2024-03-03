@@ -25,10 +25,10 @@
             {#each how_we_can_help as value, i }
             {#if i%2 === 0}
                 <div class="flex flex-col lg:flex-row py-10">
-                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 lg:justify-end">
+                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 justify-around">
                         <img class="max-w-md w-full rounded-lg shadow-2xl" alt="Our vision" src={value.image} />
                     </div>
-                    <div class="flex lg:px-6 mb-10 lg:w-6/12 lg:mb-0 justify-start items-center">
+                    <div class="flex px-6 mb-10 lg:w-6/12 lg:mb-0 justify-around items-center">
                         <div class="max-w-lg">
                             <h2 class="text-xl font-bold leading-tight md:text-2xl pb-5">
                                 {value.title}
@@ -41,7 +41,7 @@
                 </div>
             {:else }
                 <div class="flex flex-col lg:flex-row py-10">
-                    <div class="flex lg:px-6 mb-10 lg:w-6/12 lg:mb-0 lg:justify-end items-center">
+                    <div class="flex px-6 mb-10 lg:w-6/12 lg:mb-0 justify-around items-center">
                         <div class="max-w-lg">
                             <h2 class="text-xl font-bold leading-tight md:text-2xl pb-5">
                                 {value.title}
@@ -51,7 +51,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 lg:justify-start">
+                    <div class="flex mb-10 lg:w-6/12 lg:mb-0 justify-around">
                         <img class="max-w-md w-full rounded-lg shadow-2xl" alt="Our vision" src={value.image} />
                     </div>
                 </div>
